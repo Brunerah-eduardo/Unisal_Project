@@ -8,7 +8,7 @@
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }catch(PDOException $e){
         require 'config.php';
-        //header('Location: /6%20-%20CMS/');
+        header("Location: /Unisal_Project/");
     }
 
 ?>
