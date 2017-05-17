@@ -52,7 +52,7 @@
     </head>
 
     <body>
-        <header><a href="/Unisal_Project/">UNISAL</a></header>
+        <header><a href="/Unisal_Project/">UNISAL - Lorena</a></header>
 
         <?php if(!empty($user) && $user['level'] == 0){ ?>
 
